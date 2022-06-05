@@ -81,7 +81,7 @@ class Array:
                 f"The array_api namespace does not support the dtype '{x.dtype}'"
             )
         obj._array = x
-        return obj
+        return  obj
 
     # Prevent Array() from working
     def __new__(cls, *args, **kwargs):
